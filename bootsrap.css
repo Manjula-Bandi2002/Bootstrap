@@ -1,0 +1,94 @@
+body{
+margin: 0% ;
+padding: 0%;
+width: 100%;
+font-family: 'Poppins',sans-serif;
+/* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSPQi6Nv1g4FXATov9OQ_SNiAVQkB7syKvxw&usqp=CAU'); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;    */
+    /* background: #0083B0;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB); */
+    /* background-color:#0083B0 !important ; */
+}
+tr td th{
+    padding: 10px 0px !important;
+}
+table{
+    text-align: center;
+}
+#div2{
+    height: 500px;  
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 3%;
+    border-radius: 2%;
+    /* background-color:rgb(188, 239, 239) ; */
+    background-color: #fff;
+}
+
+#submit{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.form-label{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#pagination{
+    height: 50px;
+    transform: translate(-490px,570px);
+ }
+ #nextPage{
+    transform: translate(180px,-71px);
+ }
+#pagination-container {
+    /* gap: 1px;
+    margin-left: 50%; */
+    display: flex;
+    justify-content: center;
+}
+#pagination-container button {
+    /* background-color: #787c82; */
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#pagination-container button:disabled {
+    background-color: #dcdcdc;
+    cursor: not-allowed;
+}
+@media only screen and (max-width:768px){
+    body{
+        margin: 1% ;
+        width: 100%;
+        overflow-x: hidden;
+        padding:5%;
+        /* color: rgb(54, 53, 53); */
+        
+    }
+    /* #pagination-container{
+        margin-left:5% !important; 
+    } */
+    #div2{
+        margin: 2%;
+        width:100%;
+        padding:10%
+    }
+    #div3{
+        margin: 1%;
+        padding: 1%;
+        width: 100%;
+    }
+    tr,th,td{
+        
+        padding: 10px 0px !important;
+    }
+}   

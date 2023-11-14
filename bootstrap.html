@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootsrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous referrerpolicy="no-referrer/>
+</head>
+<body>
+    <button id="theme-toggle" class="btn btn-third">
+        <i style="color: #fff;" id="icon-light" class="fas fa-sun"></i>
+        <i id="icon-dark" class="fas fa-moon" ></i>
+    </button>
+    
+
+    <div id="container" class="row">
+        <div id="div2" class="col-sm-4 border rounded shadow" >
+            <form action="" id="form">
+                <p style="padding-top: 5px; color:orangered;text-align: center;"><b>UI FORM FOR VIEW AND UPDATE</b></p>
+                <hr />
+                    <input type="hidden" id="recordId" name="recordId"/>
+                    <label  for="validationServer04" class="form-label"><i class="fa-solid fa-id-badge"></i> userid</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your userid"><br>
+                    <label for="formGroupExampleInput2" class="form-label">id</label>
+                    <input type="text" class="form-control" id="id" placeholder="Enter your id"><br>
+                    <label for="formGroupExampleInput" class="form-label">title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Enter your title"><br>
+                    <label for="formGroupExampleInput2" class="form-check-label">completed  </label>
+                    <input class="form-check-input" type="checkbox" value="" id="checkbox"><br>
+                    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </form>
+        </div>
+        <div id="div3" class="col-sm-7">
+            
+            <table id="table" class="table table-light table-striped table-hover caption-top table-responsive">
+                <caption style="text-align: center;"><b id="cap" >MY DATA TABLE</b></caption>
+                <thead>
+                    <tr id="tr1">
+                        <th>User ID</th>
+                        <th>ID</th>
+                        <th>TITLE</th>
+                        <th>completed</th>
+                        <th>Delete</th>
+                        <th>Update</th>
+                    </tr>
+                </thead>
+                  <tbody id="tablebody"></tbody>
+            </table>
+        </div>
+        <div id="pagination-container">
+            <!-- <button id="prevPage">← Previous</button>
+            <span id="currentPageSpan"></span>
+            <button id="nextPage">Next →</button> -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>\
+    <script src="./bootstrap.js"></script>
+
+   
+</body>
+</html>
